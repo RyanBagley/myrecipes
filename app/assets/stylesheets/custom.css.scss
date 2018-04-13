@@ -36,7 +36,43 @@ $navbar-default-bg: #ff740d;
   background-color: #ff740d;
 }
 
-.btn-xlarge {
+.btn-xlarge:hover {
   color: #fff;
   text-decoration: none;
+}
+
+body {
+  height: 100%;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
