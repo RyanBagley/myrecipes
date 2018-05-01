@@ -9,9 +9,9 @@ class ChefsEditTest < ActionDispatch::IntegrationTest
     @admin_user = Chef.create!(chefname: "john1", email: "john1@example.com",
                     password: "password", password_confirmation: "password", admin: true)
   end
-end
 
-test "reject an invalid edit" do
+
+  test "reject an invalid edit" do
     sign_in_as(@chef, "password")
     get edit_chef_path(@chef)
     assert_template 'chefs/edit'
