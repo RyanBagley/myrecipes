@@ -1,0 +1,20 @@
+Metrics/LineLength:
+ Max: 99
+Documentation:
+ Enabled: false
+StringLiterals:
+ EnforcedStyle: double_quotes
+Style/SymbolArray:
+ Enabled: false
+Style/EmptyMethod:
+ EnforcedStyle: expanded
+Style/Documentation:
+ Enabled: false
+Style/ClassAndModuleChildren:
+ Enabled: false
+Bundler/OrderedGems:
+ Enabled: false
+Layout/AlignParameters:
+ Enabled: false
+Style/RaiseArgs:
+ Enabled: false
